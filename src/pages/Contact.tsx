@@ -20,15 +20,15 @@ export const Contact = () => {
       id: 1,
       name: 'Whatsapp',
       image: <IconBrandWhatsapp style={iconStyles} />,
-      description: '+62887676546',
+      description: '+2349039563447',
       link: 'https://wa.me/+62887676546',
     },
     {
       id: 2,
       name: 'Email',
       image: <IconBrandCampaignmonitor style={iconStyles} />,
-      description: 'bayusetiawanipb@gmail.com',
-      link: 'mailto:bayusetiawanipb@gmail.com',
+      description: 'victorynwankwo162@gmail.com',
+      link: 'victorynwankwo162@gmail.com',
     },
     {
       id: 3,
@@ -44,13 +44,13 @@ export const Contact = () => {
       description: 'Bayusetiawan45',
       link: 'https://github.com/Bayusetiawan45',
     },
-    {
-      id: 5,
-      name: 'Linkedin',
-      image: <IconBrandLinkedin style={iconStyles} />,
-      description: 'bayu-setiawan99',
-      link: 'https://www.linkedin.com/in/bayu-setiawan99/',
-    },
+    // {
+      // id: 5,
+      // name: 'Linkedin',
+      // image: <IconBrandLinkedin style={iconStyles} />,
+      // description: 'bayu-setiawan99',
+      // link: 'https://www.linkedin.com/in/bayu-setiawan99/',
+    // },
   ];
   return (
     <motion.section

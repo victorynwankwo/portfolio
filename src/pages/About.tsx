@@ -19,31 +19,27 @@ export const About = () => {
         description={sectionDescription}
       />
       <div className="flex gap-2 text-md lg:text-xl font-medium">
-        <h2 className="font-semibold">Hello, i'm Bayu</h2>
+        <h2 className="font-semibold">Hello, I,m Victory</h2>
         <div className="ml-1 animate-waving-hand">👋</div>
       </div>
       <p>
-        I am Software Engineer proficient in TypeScript and well-versed in
-        popular frameworks such as React JS, Next JS, Vue JS, and Nuxt Js. Not
-        just coding. I am passionate about creating clean and efficient code,
-        automating testing code, and implementing modern design principles to
-        deliver intuitive user experiences. With my technical expertise, I am
-        able to create highly performant and elegant solutions that are easy to
-        maintain and scale. I am always eager to learn new technologies and
-        improve my skills
+I am a Frontend Engineer skilled in React, TypeScript, and JavaScript.
+I focus on building clean, efficient, and maintainable user interfaces.
+I enjoy creating responsive and user-friendly web applications.
+I apply modern design principles to deliver smooth user experiences.
+I am eager to keep learning and improving my frontend development skills.
+
+
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
-        officiis quas, facilis molestiae adipisci reprehenderit itaque alias
-        atque tempora odit perferendis, nulla voluptatem quo voluptatum enim
-        expedita, numquam nemo! Vel necessitatibus provident fugiat asperiores
-        velit? Illum amet cum dignissimos? Quo perferendis vitae eos dolores
-        sunt delectus voluptate ab omnis asperiores dicta, dolor reprehenderit
-        blanditiis et a quod esse. Aut omnis rerum distinctio ducimus animi
-        delectus eum architecto voluptatem, tenetur labore eveniet aliquid
-        voluptas facere culpa autem saepe veniam enim et modi minus quod beatae
-        voluptatibus libero blanditiis. Harum ratione quod sunt vero quisquam
-        iste accusantium numquam distinctio. Recusandae, aut!
+        My approach centers on writing clean, maintainable, and scalable code.
+I enjoy transforming UI/UX designs into seamless digital experiences.
+I pay close attention to detail to ensure pixel-perfect implementations.
+I focus on optimizing applications for speed and smooth user interaction.
+I continuously improve my problem-solving skills through real-world projects.
+I am committed to following modern frontend best practices and standards.
+I collaborate effectively with designers and backend developers when needed.
+I am always eager to learn, grow, and take on new frontend challenges.
       </p>
     </motion.section>
   );

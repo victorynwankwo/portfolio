@@ -8,12 +8,11 @@ import { Education } from './pages/Education';
 import { Portfolio } from './pages/Portfolio';
 import { Contact } from './pages/Contact';
 import { MediaBar } from './components/MediaBar';
-import { Footer } from './components/Footer';
 import { NotFound } from './pages/NotFound';
 
 function App() {
   return (
-    <main className="w-screen py-4 bg-gray-950 text-gray-50 min-h-screen">
+    <main className="w-screen py-4 bg-blue-50 text-gray-900 min-h-screen">
       <Header />
       <MediaBar />
       <section className="px-3 md:px-10 lg:px-20 pb-12 min-h-screen">
@@ -28,7 +27,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </section>
-      <Footer />
+      
     </main>
   );
 }

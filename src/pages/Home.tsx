@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import { LeaveCard } from '../components/LeaveCard';
+// import { LeaveCard } from '../components/LeaveCard';
 import { HomeMotion } from '../common/motion/Home';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export const Home = () => {
-  const { description, resume, wrapImg, image } = HomeMotion;
+  const { description,  wrapImg, image } = HomeMotion;
   return (
     <section className="flex flex-col lg:flex-row h-full p-6 items-center min-h-[70vh]">
       <motion.div
@@ -17,27 +17,25 @@ export const Home = () => {
           <span>Hi there!</span>{' '}
           <div className="ml-1 animate-waving-hand">👋</div>
         </div>
-        <h1 className="text-white font-extrabold text-4xl md:text-6xl">
-          Bayu Setiawan
+        <h1 className="text-black font-italic text-4xl md:text-6xl">
+          Nwankwo Victory
         </h1>
         <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
-          Software Engineer
+          Frontend Developer
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-          neque illo. Vel repudiandae culpa dolorum, accusantium odit rerum
-          commodi totam?
+         I am a passionate frontend developer who enjoys building clean, responsive, and user-friendly web applications. <br />I specialize in React, JavaScript, and Tailwind CSS, and I’m constantly improving my skills to create modern digital experiences. I love solving problems, learning new technologies,<br /> and turning ideas into functional and beautiful interfaces.
         </p>
-        <Link to="./Bayu-Setiawan-Frontend-Developer-CV.pdf" target="_blank">
+        {/* <Link to="./Bayu-Setiawan-Frontend-Developer-CV.pdf" target="_blank"> */}
           <motion.div
-            initial={resume.initial}
-            animate={resume.animated}
-            transition={resume.transition}
-            className="rounded-3xl w-max border px-4 py-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-black hover:border-teal-500"
+            // initial={resume.initial}
+            // animate={resume.animated}
+            // transition={resume.transition}
+            // className="rounded-3xl w-max border px-4 py-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-black hover:border-teal-500"
           >
-            Download Resume
+            
           </motion.div>
-        </Link>
+        {/* </Link> */}
       </motion.div>
       <motion.div
         initial={wrapImg.initial}
@@ -49,14 +47,14 @@ export const Home = () => {
           initial={image.initial}
           animate={image.animated}
           transition={image.transition}
-          src="/bayu-no-bg.webp"
+          src="https://image2url.com/r2/default/images/1771187819670-57cd5dc9-f351-4ac4-a7a0-c8da104fc0ae.jpeg"
           alt="profile"
           width="100%"
           height="100%"
         />
       </motion.div>
 
-      <LeaveCard label="Frontend Dev" />
+      {/* <LeaveCard label="Frontend Dev" /> */}
     </section>
   );
 };

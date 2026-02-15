@@ -2,26 +2,24 @@ import { motion } from 'framer-motion';
 import {
   IconBrandWhatsapp,
   IconBrandCampaignmonitor,
-  IconBrandInstagram,
   IconBrandGithub,
-  IconBrandLinkedin,
-  IconHeadphones,
+  IconBrandFacebook,
 } from '@tabler/icons-react';
 import { SectionMotion } from '../common/motion/Section';
-import { SectionHeader } from '../components/SectionHeader';
+// import { SectionHeader } from '../components/SectionHeader';
 import { ContactCard } from '../components/ContactCard';
 
 export const Contact = () => {
   const { section } = SectionMotion;
-  const sectionDescription = 'Feel free to contact me';
-  const iconStyles = { width: '100%', height: '100%' };
+  // const sectionDescription = 'Feel free to contact me';
+  const iconStyles = { width: '100%', height: '100%', background: 'white',borderRadius: '50%' };
   const contacts = [
     {
       id: 1,
       name: 'Whatsapp',
       image: <IconBrandWhatsapp style={iconStyles} />,
       description: '+2349039563447',
-      link: 'https://wa.me/+62887676546',
+      link: 'https://wa.me/2349039563447?text=Hello%20Victory',
     },
     {
       id: 2,
@@ -33,16 +31,16 @@ export const Contact = () => {
     {
       id: 3,
       name: 'Instagram',
-      image: <IconBrandInstagram style={iconStyles} />,
-      description: 'bayustr__',
-      link: 'https://www.instagram.com/bayustr__',
+      image: <IconBrandFacebook style={iconStyles} />,
+      description: 'Nwankwo Victory',
+      link: 'https://www.facebook.com/victory.nwankwo.403721',
     },
     {
       id: 4,
       name: 'Github',
       image: <IconBrandGithub style={iconStyles} />,
-      description: 'Bayusetiawan45',
-      link: 'https://github.com/Bayusetiawan45',
+      description: 'victorynwankwo',
+      link: 'https://github.com/victorynwankwo',
     },
     // {
       // id: 5,
@@ -59,11 +57,11 @@ export const Contact = () => {
       transition={section.transition}
       className="space-y-6"
     >
-      <SectionHeader
-        icon={<IconHeadphones />}
-        label="Contact"
-        description={sectionDescription}
-      />
+      {/* <SectionHeader */}
+        {/* icon={<IconHeadphones />} */}
+        {/* label="Contact" */}
+        {/* description={sectionDescription} */}
+      {/* /> */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {contacts.map((contact) => (
           <ContactCard key={contact.id} {...contact} />
